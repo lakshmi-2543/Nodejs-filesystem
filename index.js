@@ -1,8 +1,11 @@
 const fs = require("fs");
 const express = require("express");
+const cors =  require('cors');
 const path = require("path");
 const dirPath = path.join(__dirname,"Files")
+
 const app = express();
+app.use(cors());
 
 //console.log(__dirname);
 //console.log(dirPath);
