@@ -45,28 +45,3 @@ app.get('/timestamp/:ts', function (req, res) {
 //listen and start a http server in specific port 
 app.listen(9000, ()=> console.log("starting server at port 9000"))
 
-////////////////////////////////////////////////////////////////////////
-        // let date = new Date();
-        // console.log(date, typeof(date));
-        // let t = date.toTimeString();
-        // let d = date.toDateString();
-        // d = d.split(" ");
-        // d = d[1]+d[2]+d[3];
-        // t = t.split(" ");
-        // t = t[0];
-        // console.log(d);
-        // t = t.replaceAll(":","");
-        // console.log(t); 
-        // let filename = d +"-" + t;
-        // console.log(filename);
-
-// writing a file.
-// const content = date.toLocaleString();
-// fs.writeFile(`./Files/${filename}.txt`, content, (err) => {
-//     if(err){
-//         console.log(err);
-//     }
-//     else{
-//         console.log("write successful");
-//     }
-// }); 
